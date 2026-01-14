@@ -11,10 +11,10 @@
 }
 /* common classes  */
 .container{
-  width: 75%;
+   width: 75%;
    max-width: 1440px;
    margin: 0 auto;
-   padding: 0 1rem;
+   
 }
 .grid{
   display: grid;
@@ -74,6 +74,34 @@ header{
     font-weight: 900;
     color: #272727;
     margin-bottom: 32px;
+}
+
+/* flower section  */
+.flower-content{
+   text-align: center;
+   margin: 50px;
+}
+
+.flowers-contaniner{
+  text-align: center;
+  justify-content: space-between;
+  align-items: end;
+  gap: 20px;
+}
+.flowers{
+ 
+    place-items: center;
+    width: 464px;
+    height: 605px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border: 1px solid #000;
+}
+.flower-card img{
+   
+   object-fit: contain;
+   object-position: center;
+   padding: 110px 78px 0 78px;
 }
 
 
