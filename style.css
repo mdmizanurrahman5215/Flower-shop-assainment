@@ -77,31 +77,21 @@ header{
 }
 
 /* flower section  */
-.flower-content{
-   text-align: center;
-   margin: 50px;
-}
 
 .flowers-contaniner{
-  text-align: center;
-  justify-content: space-between;
-  align-items: end;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   gap: 20px;
 }
-.flowers{
- 
-    place-items: center;
-    width: 464px;
-    height: 605px;
-    border-top-left-radius: 50%;
-    border-top-right-radius: 50%;
-    border: 1px solid #000;
+.flower-card{
+  border: 1px solid #000;
+  position: relative;
 }
-.flower-card img{
-   
-   object-fit: contain;
-   object-position: center;
-   padding: 110px 78px 0 78px;
+.flowers{
+  border: 1px solid #000;
+}
+.img{
+  border: 1px solid #000;
 }
 
 
