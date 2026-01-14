@@ -108,7 +108,10 @@ header{
    text-decoration-line: underline;
   /* text-decoration-thickness: 2px; */
   text-underline-offset: 6px;
-  /* text-decoration-color: #30B868; */
+  text-decoration-color: #272727;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #272727;
 }
 .flowers{
   width: 100%;
@@ -118,7 +121,7 @@ header{
   display: flex;
   justify-content: center;
   align-items: end;
-  /* border: 3px solid #41c917; */
+  border: 3px solid #41c917;
 }
 .img{
   /* border: 1px solid #000; */
