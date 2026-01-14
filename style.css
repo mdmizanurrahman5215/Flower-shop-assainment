@@ -1,0 +1,131 @@
+*{
+    margin: 0;padding: 0;box-sizing: border-box;
+}
+
+:root{
+    --bg-color:rgba(229, 84, 115, 0.1);
+}
+.lato-thin {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+}
+/* common classes  */
+.container{
+   max-width: 1440px;
+   margin: 0 auto;
+}
+
+.flex{
+    display: flex;
+
+}
+.heading{
+ font-size: 2.5rem;
+ font-weight: 600;
+ color:#272727 ;
+}
+.text{
+    font-size: 1.1rem;
+    color: rgba(39, 39, 39, 0.6);
+}
+.btn{
+    background-color: #E55473;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 20px 44px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    color:white;
+
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* header section  */
+
+header{
+    width: 100%;
+    /* min-height: 100vh; */
+    background-color: var(--bg-color);
+}
+.header-container{
+    padding-top: 50px;
+  /* gap: 100px; */
+}
+.header-container p{
+ margin-bottom: 32px;
+}
+.head{
+    font-size: 5rem;
+    font-weight: 900;
+    color: #272727;
+    margin-bottom: 32px;
+}
+
+
+
+
+/* small device  */
+
+
+@media (max-width: 640px) {
+  body {
+    background-color: lightblue;
+  }
+
+    .header-container{
+    flex-direction: column;
+    gap: 20px;
+  }
+  .header-content{
+    padding: 20px 50px;
+  }
+  .header-content h1{
+    font-size: 45px;
+  }
+.header-img{
+    max-width: 400px;
+    /* border: 1px solid #000; */
+}
+.header-img img{
+    max-width: 100%;
+    object-fit: contain;
+    object-position: center;
+    /* border: 1px solid #000; */
+}
+}
+
+/* Medium devices (tablets) */
+@media (min-width: 641px) and (max-width: 768px) {
+  body {
+    background-color: lightgreen;
+  }
+  .header-container{
+    flex-direction: column;
+    gap: 20px;
+  }
+  .header-content{
+    padding: 20px 50px;
+  }
+  .header-content h1{
+    font-size: 45px;
+  }
+.header-img{
+    max-width: 400px;
+    /* border: 1px solid #000; */
+}
+.header-img img{
+    max-width: 100%;
+    object-fit: contain;
+    object-position: center;
+    /* border: 1px solid #000; */
+}
+
+
+
+
+}
