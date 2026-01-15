@@ -187,7 +187,25 @@ header {
   margin-bottom: 32px;
 }
 
+/* instagram section  */
 
+.instagram-container{
+  margin: 128px auto;
+  text-align: center;
+}
+.instagram-container h1{
+  margin-bottom: 24px;
+}
+.inta-image-container{
+  gap: 20px;
+}
+.inta-image-container{
+  margin-top: 24px;
+}
+.insta-card img:hover{
+  scale: 1.03;
+  box-shadow: 0 0 4px rgb(179, 177, 177);
+}
 
 /* small device  */
 
