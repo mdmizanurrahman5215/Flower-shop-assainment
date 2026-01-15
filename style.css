@@ -248,6 +248,39 @@ margin-bottom: 16px;
 margin-bottom: 3rem;
 }
 
+/* footer section  */
+
+.footer-container{
+  padding: 128px;
+  text-align: center;
+  
+}
+.footer-container{
+  text-align: center;
+
+}
+.footer-container h1 {
+color: #ffffff;
+margin-bottom: 25px;
+
+
+}
+.footer-container h1 span{
+color: #E55473;
+
+
+}
+.footer-container p{
+  color: #ffffff;
+  margin-bottom: 32px;
+
+}
+.footer-container p:last-child{
+  
+ color:rgba(255, 255, 255, 0.4);
+
+}
+
 
 
 
