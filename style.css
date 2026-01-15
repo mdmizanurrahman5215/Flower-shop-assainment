@@ -207,6 +207,51 @@ header {
   box-shadow: 0 0 4px rgb(179, 177, 177);
 }
 
+
+/* contact section  */
+.contact-container{
+  margin: 128px auto;
+  padding: 122px 287px;
+  background:url("./image/Rectangle\ 9.png") center/cover no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+}
+
+.input-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+.input-section input{
+  padding: 22px;
+  width: 700px;
+  height: 64px;
+  background: #ffffff;
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  box-shadow: 0 0 4px gray;
+  /* margin-left: 20px; */
+}
+.input-section input::placeholder{
+ color:rgba(39, 39, 39, 0.6) ;
+ font-size: 1rem;
+}
+.contact-container h1{
+margin-bottom: 16px;
+}
+.contact-container p{
+margin-bottom: 3rem;
+}
+
+
+
+
+
 /* small device  */
 
 
