@@ -123,11 +123,23 @@ header{
   align-items: end;
   border: 3px solid #41c917;
 }
-.img{
-  /* border: 1px solid #000; */
+
+/* infu section  */
+
+.infu-container{
+  padding: 86px 175px;
+  margin: 128px auto;
+  justify-content: space-around;
+  text-align: center;
+  background-color:rgba(39, 39, 39, 0.05) ;
 }
+#infu .card p{
+  font-size: 1.5rem;
+  font-weight: 600;
+  color:rgba(39, 39, 39, 0.8) ;
+  margin-top: 24px;
 
-
+}
 
 
 /* small device  */
