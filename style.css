@@ -65,14 +65,12 @@
 
 header {
   width: 100%;
-  /* min-height: 100vh; */
   background-color: var(--bg-color);
 }
 
 .header-container {
   flex-shrink: 1;
   padding-top: 50px;
-  /* gap: 100px; */
 }
 
 .header-img {
@@ -92,7 +90,7 @@ header {
 
 /* flower section  */
 
-.flowers-contaniner {
+.flowers-container {
   margin-bottom: 100px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -210,9 +208,12 @@ header {
 
 /* contact section  */
 .contact-container{
+  max-width: 1440px;
+  width: 100%;
   margin: 128px auto;
-  padding: 122px 287px;
+  padding: clamp(3rem, 8vw, 7.5rem) clamp(1rem, 6vw, 18rem);
   background:url("./image/Rectangle\ 9.png") center/cover no-repeat;
+  min-height: 60vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -221,15 +222,17 @@ header {
 }
 
 .input-section {
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
   gap: 16px;
 }
 .input-section input{
   padding: 22px;
-  width: 700px;
-  height: 64px;
+  flex: 1;
+  min-width: 240px;
   background: #ffffff;
   border: none;
   outline: none;
@@ -289,15 +292,18 @@ color: #E55473;
 
 
 @media (max-width: 640px) {
-  body {
-    background-color: lightblue;
-  }
+  /* body {
+    background-color: rgb(118, 217, 224);
+  } */
 
   .header-container {
     width: 100%;
+    display: flex;
     flex-direction: column;
     gap: 20px;
     padding: 0 1rem;
+    padding-top: 50px;
+    text-align: center;
   }
 
   .header-content h1 {
@@ -317,39 +323,71 @@ color: #E55473;
     object-position: center;
     /* border: 1px solid #000; */
   }
-}
 
-/* Medium devices (tablets) */
-@media (min-width: 641px) and (max-width: 768px) {
-  body {
-    background-color: rgb(11, 221, 91);
-  }
 
-  .header-container {
-    width: 100%;
+  .flowers-container{
+   
+    display: flex;
     flex-direction: column;
     gap: 20px;
-    padding: 0 1rem;
+  }
+  .flower-card{
+    padding: 0;
+    margin: 16px;
+   
+  }
+ 
+
+  .infu-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .discount-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  .inta-image-container{
+    display: flex;
+   
+    flex-direction: column;
+    width: 100%;
+  }
+  .insta-card img{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+   
+  }
+  
+    .contact-container {
+    padding: 3rem 1rem;
     text-align: center;
   }
 
-  .header-content h1 {
-    font-size: 45px;
+  .contact-container h1 {
+    font-size: 2rem;
   }
 
-  .header-img {
-    max-width: 400px;
-    /* border: 1px solid #000; */
+  .input-section {
+    flex-direction: column;
   }
 
-  .header-img img {
-    max-width: 100%;
-    object-fit: contain;
-    object-position: center;
-    /* border: 1px solid #000; */
+  .input-section input,
+  .input-section .btn {
+    width: 100%;
   }
 
 
-
+.footer-container{
+  width: 100%;
+  padding: 16px;
 
 }
+
+}
+
+
